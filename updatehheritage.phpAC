@@ -1,0 +1,13 @@
+<?php 
+include('connection.php');
+$update_query = "update heritage set herinformation = '".$_POST['info']."',
+														emp_id = '".$_POST['emp_id']."'";
+				
+				if(mysql_query($update_query)) {
+					echo '<p style="color:green">Update Success!<p>';
+					header("refresh:1; url=updatenhertige.php");
+				}
+				else {
+					die(mysql_error());
+				}
+?>

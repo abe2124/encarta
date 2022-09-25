@@ -1,0 +1,90 @@
+body{
+background-color: #ffffff;
+font-family:Snell Roundhand, cursive;
+}
+#menu{
+float:left;
+margin-left:0%;
+padding-right:37%;
+background: #ffffff;
+
+}
+#menuall{
+float:left;
+margin-left:0%;
+padding-right:35%;
+background: #ffffff;
+
+}
+#container{
+background: #ffffff;
+margin-left:0%;
+padding-right:15%;
+height:auto;
+
+}
+#containt{
+background:  #ffffff;
+margin-left:20%;
+height:auto;
+padding-right:6%;
+padding-bottom:10%;
+
+}
+#login{
+float:left;
+margin-left:0%;
+padding-right:2%;
+}
+#footer{
+background-color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+}
+#vertical{
+margin-top:1%;
+			float:left;
+			width:5%;
+}
+#c{
+	float:left;
+margin-left:6.5%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block
+	
+}
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0099FF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color:#f1f1f1;
+	}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*.had{
+float:left;
+width:100;
+height:20;
+top:1;
+left:1;
+background:red;}*/

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Search"
+            android:title=""
+            android:icon="@drawable/ic_search_black_24dp"
+            />
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            />
+        <item
+            android:id="@+id/history"
+            android:title="@string/history"  />
+        <item
+            android:id="@+id/human"
+            android:title="@string/people_and_society" />
+        <item
+            android:id="@+id/music"
+            android:title="@string/music_and_cultural_game"/>
+        <item
+            android:id="@+id/netur"
+            android:title="@string/science_and_nature" />
+        <item
+            android:id="@+id/hritage"
+            android:title="@string/heritage" />
+    </group>
+
+    <item
+        android:title="@string/commncative"
+        android:id="@+id/comm">
+        <menu>
+
+
+            <item
+                android:id="@+id/Help"
+                android:title="@string/help" />
+        </menu>
+    </item>
+
+
+</menu>

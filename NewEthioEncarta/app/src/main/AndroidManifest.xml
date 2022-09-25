@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.encarta.newethioencarta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".history.Historys" />
+        <activity android:name=".humans.Humans" />
+        <activity android:name=".sance.Scince_and_Nature" />
+        <activity android:name=".hertages.Heritage" />
+        <activity android:name=".Languge" />
+        <activity android:name=".history.EthiHistory" />
+        <activity android:name=".history.Ethiopiaanisint" />
+        <activity android:name=".history.Ethiomiddle" />
+        <activity android:name=".history.Modernethiopia" />
+        <activity android:name=".Musicandc" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".history.Perehisory" />
+        <activity android:name=".history.Etymology" />
+        <activity android:name=".history.Dmt" />
+        <activity android:name=".history.Axum" />
+        <activity android:name=".history.Zagwedincty" />
+        <activity android:name=".history.Zadwedinct" />
+        <activity android:name=".history.Foreign" />
+        <activity android:name=".history.Earlysolomonic" />
+        <activity android:name=".history.Solo" />
+        <activity android:name=".history.Relationseurope" />
+        <activity android:name=".history.Abyssinianwar" />
+        <activity android:name=".history.Oromom" />
+        <activity android:name=".history.Gonder" />
+        <activity android:name=".history.Gondarperiod" />
+        <activity android:name=".history.Aussasultanate" />
+        <activity android:name=".history.Zemenemesafint" />
+        <activity android:name=".history.Twodtoteffrom" />
+        <activity android:name=".history.Twodros" />
+        <activity android:name=".history.Yohannes" />
+        <activity android:name=".history.Minilik" />
+        <activity android:name=".history.Lujeyasutotefer" />
+        <activity android:name=".history.Italianoccupation" />
+        <activity android:name=".history.Worldwar" />
+        <activity android:name=".history.Postworldwar" />
+        <activity android:name=".history.Communistperiod" />
+        <activity android:name=".history.Fdrpresent" />
+        <activity android:name=".humans.famous.Efamous_people" />
+        <activity android:name=".humans.famous.Abebebikala" />
+        <activity android:name=".humans.famous.Afewerktekla" />
+        <activity android:name=".humans.famous.Aklilulemma" />
+        <activity android:name=".humans.famous.Asteraweke" />
+        <activity android:name=".humans.famous.Haddisalemayehu" />
+        <activity android:name=".humans.famous.Hailegebreslasa" />
+        <activity android:name=".humans.famous.Hailegrma" />
+        <activity android:name=".humans.cultures.Closing" />
+        <activity android:name=".humans.cultures.Culturs" />
+        <activity android:name=".humans.cultures.Cuisine" />
+        <activity android:name=".humans.cultures.Language" />
+        <activity android:name=".humans.cultures.Religion" />
+        <activity android:name=".humans.cultures.Holidays" />
+        <activity android:name=".humans.cultures.Meadia" />
+        <activity android:name=".humans.Govtandlaws" />
+        <activity android:name=".humans.Agricultur" />
+        <activity android:name=".culturalgemsandmusic.Ethiopianjoks" />
+        <activity android:name=".culturalgemsandmusic.Musicalhistory" />
+        <activity android:name=".culturalgemsandmusic.Musicalinstrument" />
+        <activity android:name=".culturalgemsandmusic.Sport" />
+        <activity android:name=".sance.Technology" />
+        <activity android:name=".tableview" />
+        <activity android:name=".sance.Education" />
+
+        <activity android:name=".sance.Envaroment" />
+        <activity android:name=".sance.Butiful_naturs" />
+        <activity android:name=".hertages.Naturalhrtagedescrpt" />
+        <activity android:name=".hertages.Religoushrti" />
+        <activity android:name=".hertages.Ethiuniscohirt" />
+        <activity android:name=".Wlecom_To_Ethio_encarta" />
+        <activity android:name=".technoon"/>
+        <activity android:name=".sporton"/>
+        <activity android:name=".lawgovton"/>
+        <activity android:name=".famuson"/>
+        <activity android:name=".musicon"/>
+        <activity android:name=".heritageon"/>
+        <activity android:name=".help"/>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".ethioon" />
+        <activity android:name=".ethiojokon"></activity>
+    </application>
+
+</manifest>

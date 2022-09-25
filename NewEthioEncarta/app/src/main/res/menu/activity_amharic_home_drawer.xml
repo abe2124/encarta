@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Amhaharichome"
+            android:title="መነሻ ማያ ገጽ" />
+        <item
+            android:id="@+id/Amharichistory"
+            android:title="ታሪክ" />
+        <item
+            android:id="@+id/Amharichuman"
+            android:title="ሰዉና ህብረተሰብ" />
+        <item
+            android:id="@+id/Amharicmusic"
+            android:title="ሙዚቃና ባህላዊ ጨዋታወች" />
+        <item
+            android:id="@+id/Amharicneture"
+            android:title="ሳይንስ እና ተፈጥሮ" />
+        <item
+            android:id="@+id/Amharichrit"
+            android:title="ቅርስ" />
+
+    </group>
+
+    <item
+        android:title="               ግንኙነቶች"
+        android:id="@+id/Amhariccomm">
+
+        <menu>
+            <item
+                android:id="@+id/AmharicAboutus"
+                android:title="ስለኛ" />
+            <item
+                android:id="@+id/Amharichelp"
+                android:title="እርዳታ" />
+        </menu>
+    </item>
+
+</menu>
